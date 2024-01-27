@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: #212529;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  height: 50px;
+}
+
+.icon {
+  font-size: 35px;
+}
+
+.home-bold {
+  font-weight: bolder;
+}
+
+.logo {
+  width: 50%;
+  margin-top: 6px;
+}
+
+.navigation {
+  width: 50%;
+  margin-top: 6px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+
+.banner {
+  background-color: #dee2e6;
+  text-align: center;
+  display: flex;
+}
+
+.greetings {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  margin-left: 25%;
+}
+
+.photo {
+  width: 50%;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.description {
+  color: grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.person-photo {
+  height: 100%;
+  margin-right: 21%;
+}
+
+.black-button {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: none;
+  border-radius: 7px;
+}
+
+.white-button {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-width: 1px;
+  border-radius: 7px;
+}
+
+.aboutMe {
+  display: flex;
+  margin: auto;
+  margin: 50px;
+  margin-left: 200px;
+}
+
+.about-title {
+  width: 30%;
+  margin-left: 10%;
+}
+
+.about-text {
+  width: 70%;
+}
+
+.about-info {
+  margin-bottom: 20px;
+  margin-right: 120px;
+}
+
+.services-container {
+  text-align: center;
+  background-color: #dee2e6;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  padding: 30px;
+  height: 300px;
+}
+
+.single-card {
+  background-color: #212529;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.card-title {
+  padding: 7px;
+}
+
+.card-description {
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+.desc {
+  color: grey;
+  width: 33%;
+  margin: auto;
+}
+
+.blog-card1 {
+  display: flex;
+  margin-left: 8%;
+  text-align: left;
+}
+
+.section {
+  display: flex;
+  margin: 20px;
+}
+
+.rctngl {
+  width: 150px;
+}
+
+.blog-container {
+  text-align: center;
+  align-items: center;
+}
+
+.txt {
+  background-color: #d9d9d9;
+  padding: 10px;
+  width: 50%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+h5 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.title-center {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.contact-container {
+  text-align: center;
+  background-color: #dee2e6;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.contact-cards {
+  display: flex;
+  align-items: center;
+}
+
+.message {
+  width: 50%;
+  margin-top: 30px;
+  text-align: left;
+  margin-left: 9%;
+}
+
+.social-media {
+  width: 50%;
+  margin-top: 30px;
+  text-align: left;
+}
+
+input {
+  padding: 5px;
+  border-radius: 7px;
+  border-style: none;
+  background-color: #212529;
+}
+
+textarea {
+  background-color: #212529;
+  border-radius: 7px;
+  padding: 5px;
+  border-style: none;
+}
+
+#submit-message {
+  background-color: white;
+  padding: 10px;
+  margin-top: 5px;
+  margin-right: 22%;
+  cursor: pointer;
+}
+
+.forms {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.form-fill {
+  width: 80%;
+  margin-left: 50px;
+}
+
+.send-text {
+  margin-bottom: 10px;
+  margin-left: 9%;
+}
+.form-fill input::placeholder {
+  color: white;
+}
+.form-fill textarea::placeholder {
+  color: white;
+}
+
+.social-text {
+  margin-bottom: 5px;
+}
+
+.icon-social {
+  width: 15px;
+}
+
+.soc {
+  padding: 5px;
+}
+
+.sub-cont {
+  text-align: right;
+}
+
+footer {
+  padding: 20px;
+  background-color: #212529;
+  color: white;
+  text-align: center;
+}
+
+h6 {
+  font-size: 17px;
+}
+
+#email {
+  width: 150px;
+}
+
+#name {
+  width: 150px;
+}
+
+#message-area {
+  width: 304px;
+}
